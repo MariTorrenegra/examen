@@ -1,0 +1,45 @@
+.articles-content,
+.result {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+}
+
+.articles,
+.testimony,
+.result {
+  max-width: 400px;
+  text-align: center;
+  margin: 5%;
+}
+
+.categories-content,
+.categories,
+.categories .services {
+  max-width: 100%;
+  text-align: center;
+  margin: 5%;
+}
+
+.articles,
+.categories-content img {
+  background-size: cover;
+}
+
+.categories-content img {
+  max-width: 70%;
+}
+
+.categories-content .image {
+  background-size: cover;
+  max-width: 80%;
+}
+
+.testimony {
+  display: grid;
+  justify-items: center;
+}
+
+.testimony img {
+  max-width: 100%;
+}
